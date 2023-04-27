@@ -44,7 +44,7 @@ let bestColors = [ 'green','blue', 'yellow', 'black' ]
 
 //summer games  
 /*Create a function that takes in the array of numbers. multiply 
-    each number together and alert the product*
+    each number together and alert the product*/
 
 functuin multiNumsInArr(arr){
 	let product = 1 
