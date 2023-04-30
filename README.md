@@ -1,2 +1,2 @@
 # Codewars-chalanges
-Chalange on codewars
+my Answer to codewarsChallanges
