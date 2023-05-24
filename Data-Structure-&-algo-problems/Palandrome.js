@@ -10,6 +10,11 @@
 //racecar => true
 
 function isPalandrome(word){
+  word = word.toLowerCaase();
+  word = word.replace(/[^a-z]/g, '');
+  
+  let reversedWord = word.split('').reverse().join('');
+   return word === reversedWord;
 }
 console.log(isPalandrome('racecar'), 'true') // true
 console.log(isPalandrome('bob'), 'true') // true
