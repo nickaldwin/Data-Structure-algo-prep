@@ -1,2 +1,1 @@
-# Codewars-chalanges
-Chalange on codewars
+Data-Structure-&-algo-problems
