@@ -1,4 +1,5 @@
 //the problem
+
 /*
 This is the first of several challenges on sorting algorithms. Given an array of unsorted items, we want to be able to return a sorted array. We will see several different methods to do this and learn some tradeoffs between these different approaches. While most modern languages have built-in sorting methods for operations like this, it is still important to understand some of the common basic approaches and learn how they can be implemented.
 
@@ -8,6 +9,7 @@ This method requires multiple iterations through the array and for average and w
 
 Instructions: Write a function bubbleSort which takes an array of integers as input and returns an array of these integers in sorted order from least to greatest.
 */
+
 //solution
 function bubbleSort(array) {
   for (let i = 0; i < array.length; i++) {
