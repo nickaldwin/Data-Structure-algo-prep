@@ -73,8 +73,6 @@ var stoneGameII = function(piles) {
 
 
 /* 
-Comments:
-
 (1) sums[i] = piles[i] + sum(piles[i + 1], piles[i + 2], ... piles[n - 1]).
 
 (2) You can think of index as the starting position of the stone piles that are remaining. So at beginning, where index = 0,
