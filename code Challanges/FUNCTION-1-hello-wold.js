@@ -6,11 +6,6 @@ Sure, this is about as easy as it gets. But how clever can you be to create the 
 
 
 
-
-
-
-
-
 //solution
 function greet() {
     return "hello world!";
