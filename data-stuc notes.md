@@ -48,4 +48,43 @@ It's important to note that Big O notation focuses on the worst-case scenario an
 
     Communication and Standardization: Big O notation provides a standardized way to express and communicate the efficiency or complexity of an algorithm. It allows developers, researchers, and educators to discuss and compare algorithms using a common language, facilitating collaboration and understanding.
 
-In summary, Big O notation is a valuable tool in algorithm analysis and selection. It helps us understand the efficiency of algorithms, predict their behavior with larger inputs, optimize them for better performance, and communicate about algorithms in a standardized manner.  
+In summary, Big O notation is a valuable tool in algorithm analysis and selection. It helps us understand the efficiency of algorithms, predict their behavior with larger inputs, optimize them for better performance, and communicate about algorithms in a standardized manner.
+
+code samples:
+
+    Example of O(1) - Constant Time:
+
+javascript
+
+function printFirstElement(arr) {
+    console.log(arr[0]);
+}
+
+    Example of O(n) - Linear Time:
+
+javascript
+
+function findMaxElement(arr) {
+    let maxElement = arr[0];
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > maxElement) {
+            maxElement = arr[i];
+        }
+    }
+    return maxElement;
+}
+
+    Example of O(n^2) - Quadratic Time:
+
+javascript
+
+function printPairs(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = i + 1; j < arr.length; j++) {
+            console.log(arr[i], arr[j]);
+        }
+    }
+}
+
+
+
