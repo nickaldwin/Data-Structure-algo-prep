@@ -1,3 +1,4 @@
+# the big oooo
 Big O notation, also known as asymptotic notation, is a mathematical notation used in computer science and mathematics to describe the efficiency or complexity of an algorithm. It provides a way to analyze and compare the performance of different algorithms as the input size grows.
 
 In simple terms, Big O notation expresses how the runtime or space requirements of an algorithm grow relative to the size of the input. It helps us understand how an algorithm scales and allows us to make predictions about its behavior with larger inputs.
