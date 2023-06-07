@@ -37,7 +37,7 @@ It's important to note that Big O notation focuses on the worst-case scenario an
         Example: Solving the "traveling salesman" problem using brute force.
         The runtime grows exponentially with the input size and becomes quickly impractical for large inputs.
  
- why do we use it
+ why do we use it <br>
      Performance Analysis: Big O notation allows us to analyze and compare the performance of different algorithms in terms of their time complexity (runtime) and space complexity (memory usage). It helps us understand how an algorithm's performance scales with input size and make informed decisions when selecting an algorithm for a particular task.
 
     Algorithm Selection: Big O notation helps us choose the most efficient algorithm for a given problem. By comparing the complexities of different algorithms, we can identify which ones are more suitable for large input sizes and will provide faster execution times or use less memory.
