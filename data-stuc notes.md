@@ -35,3 +35,16 @@ It's important to note that Big O notation focuses on the worst-case scenario an
     O(2^n) - Exponential Time:
         Example: Solving the "traveling salesman" problem using brute force.
         The runtime grows exponentially with the input size and becomes quickly impractical for large inputs.
+ 
+ why do we use it
+     Performance Analysis: Big O notation allows us to analyze and compare the performance of different algorithms in terms of their time complexity (runtime) and space complexity (memory usage). It helps us understand how an algorithm's performance scales with input size and make informed decisions when selecting an algorithm for a particular task.
+
+    Algorithm Selection: Big O notation helps us choose the most efficient algorithm for a given problem. By comparing the complexities of different algorithms, we can identify which ones are more suitable for large input sizes and will provide faster execution times or use less memory.
+
+    Scalability Prediction: Big O notation provides insights into how an algorithm will behave as the input size increases. It allows us to predict how the algorithm's performance will scale and helps us identify potential bottlenecks or performance issues for larger inputs.
+
+    Optimization Opportunities: By understanding the complexity of an algorithm, we can identify areas where optimizations can be made. If we have an algorithm with a high time or space complexity, we can look for ways to improve its efficiency and reduce its complexity to achieve better performance.
+
+    Communication and Standardization: Big O notation provides a standardized way to express and communicate the efficiency or complexity of an algorithm. It allows developers, researchers, and educators to discuss and compare algorithms using a common language, facilitating collaboration and understanding.
+
+In summary, Big O notation is a valuable tool in algorithm analysis and selection. It helps us understand the efficiency of algorithms, predict their behavior with larger inputs, optimize them for better performance, and communicate about algorithms in a standardized manner.  
